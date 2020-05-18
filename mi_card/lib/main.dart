@@ -13,32 +13,25 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Container(
-                color: Colors.red,
-                width: 100.0,
+              CircleAvatar(
+                backgroundColor: Colors.white,
+                radius: 50.0,
+                backgroundImage: AssetImage(
+                    './images/E9357CB4-2E92-4AAD-B5A8-438F812CAACE_1_105_c.jpeg'),
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Container(
-                    width: 100.0,
-                    height: 100.0,
-                    color: Colors.yellow,
-                  ),
-                  Container(
-                    width: 100.0,
-                    height: 100.0,
-                    color: Colors.lightGreen,
-                  )
-                ],
+              Text(
+                'Yuta Zemba',
+                style: TextStyle(
+                    fontSize: 40.0,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic,
+                    fontFamily: ),
               ),
-              Container(
-                color: Colors.blue,
-                width: 100.0,
-              ),
+              Text('Adress here'),
             ],
           ),
         ),
