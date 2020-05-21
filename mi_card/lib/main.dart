@@ -45,7 +45,11 @@ class MyApp extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         child: Icon(
                           Icons.call,
+                          color: Colors.black,
                         ),
+                      ),
+                      SizedBox(
+                        width: 20.0,
                       ),
                       Container(
                         child: Text(
@@ -54,15 +58,15 @@ class MyApp extends StatelessWidget {
                               textBaseline: TextBaseline.alphabetic,
                               letterSpacing: 2.0),
                         ),
-                        padding: EdgeInsets.only(left: 20.0),
                       ),
                     ],
                   ),
                   color: Colors.white,
-                  width: 300.0,
-                  height: 50.0,
                   padding: EdgeInsets.all(5.0),
-                  margin: EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 20.0),
+                  margin: EdgeInsets.symmetric(
+                    horizontal: 20.0,
+                    vertical: 15.0,
+                  ),
                 ),
                 Container(
                   child: Row(
@@ -74,6 +78,9 @@ class MyApp extends StatelessWidget {
                           Icons.mail,
                         ),
                       ),
+                      SizedBox(
+                        width: 20.0,
+                      ),
                       Container(
                         child: Text(
                           '9xxxxxxxxx@example.com',
@@ -81,15 +88,16 @@ class MyApp extends StatelessWidget {
                               textBaseline: TextBaseline.alphabetic,
                               letterSpacing: 2.0),
                         ),
-                        padding: EdgeInsets.only(left: 20.0),
+                        // padding: EdgeInsets.only(left: 20.0),
                       ),
                     ],
                   ),
                   color: Colors.white,
-                  width: 300.0,
-                  height: 50.0,
                   padding: EdgeInsets.all(5.0),
-                  margin: EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 20.0),
+                  margin: EdgeInsets.symmetric(
+                    horizontal: 20.0,
+                    vertical: 10.0,
+                  ),
                 ),
               ],
             ),

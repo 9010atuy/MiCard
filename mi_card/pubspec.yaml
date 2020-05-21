@@ -65,6 +65,9 @@ flutter:
     - family: Kanit
       fonts:
         - asset: fonts/Kanit-Regular.ttf
+    - family: SansPro
+      fonts:
+        - asset: 'fonts/SourceSansPro-Regular.ttf'
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
