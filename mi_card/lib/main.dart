@@ -37,66 +37,64 @@ class MyApp extends StatelessWidget {
                     fontSize: 20.0,
                   ),
                 ),
-                Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: <Widget>[
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Icon(
+                Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Card(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: <Widget>[
+                        Icon(
                           Icons.call,
                           color: Colors.black,
                         ),
-                      ),
-                      SizedBox(
-                        width: 20.0,
-                      ),
-                      Container(
-                        child: Text(
-                          '*80 65XX XXXX',
-                          style: TextStyle(
-                              textBaseline: TextBaseline.alphabetic,
-                              letterSpacing: 2.0),
+                        SizedBox(
+                          width: 20.0,
                         ),
-                      ),
-                    ],
-                  ),
-                  color: Colors.white,
-                  padding: EdgeInsets.all(5.0),
-                  margin: EdgeInsets.symmetric(
-                    horizontal: 20.0,
-                    vertical: 15.0,
+                        Container(
+                          child: Text(
+                            '*80 65XX XXXX',
+                            style: TextStyle(
+                                textBaseline: TextBaseline.alphabetic,
+                                letterSpacing: 2.0),
+                          ),
+                        ),
+                      ],
+                    ),
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(
+                      horizontal: 20.0,
+                      vertical: 15.0,
+                    ),
                   ),
                 ),
-                Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: <Widget>[
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Icon(
+                Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Card(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: <Widget>[
+                        Icon(
                           Icons.mail,
                         ),
-                      ),
-                      SizedBox(
-                        width: 20.0,
-                      ),
-                      Container(
-                        child: Text(
-                          '9xxxxxxxxx@example.com',
-                          style: TextStyle(
-                              textBaseline: TextBaseline.alphabetic,
-                              letterSpacing: 2.0),
+                        SizedBox(
+                          width: 20.0,
                         ),
-                        // padding: EdgeInsets.only(left: 20.0),
-                      ),
-                    ],
-                  ),
-                  color: Colors.white,
-                  padding: EdgeInsets.all(5.0),
-                  margin: EdgeInsets.symmetric(
-                    horizontal: 20.0,
-                    vertical: 10.0,
+                        Container(
+                          child: Text(
+                            '9xxxxxxxxx@example.com',
+                            style: TextStyle(
+                                textBaseline: TextBaseline.alphabetic,
+                                letterSpacing: 2.0),
+                          ),
+                          // padding: EdgeInsets.only(left: 20.0),
+                        ),
+                      ],
+                    ),
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(
+                      horizontal: 20.0,
+                      vertical: 10.0,
+                    ),
                   ),
                 ),
               ],
